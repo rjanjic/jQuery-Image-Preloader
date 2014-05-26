@@ -31,7 +31,7 @@
 			$.when.apply($, promises).done(function() {
 				// all done
 				if (typeof callbackAll === 'function') {
-					callbackAll(objects);
+					callbackAll();
 				}
 			});
 		});

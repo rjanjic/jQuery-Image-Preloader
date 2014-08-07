@@ -7,7 +7,7 @@
  * @copyright 2013-2014 Radovan Janjic <rade@it-radionica.com>
  * @license http://opensource.org/licenses/BSD-3-Clause
  */
-(function ($){
+;(function ($){
 	"use strict";
 	$.fn.preload = function(callback, callbackAll) {
 		var i = 0;
